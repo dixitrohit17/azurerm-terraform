@@ -10,7 +10,7 @@ variable "resource-group-name-prefix" {
   description = "Define the resource group name."
 }
 
-variable "resource-group-name-sugfix" {
+variable "resource-group-name-suffix" {
   type        = string
   default     = "rg"
   description = "Define the resource group name suffix."
